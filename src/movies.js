@@ -34,7 +34,7 @@ class Movies extends Component {
             <div className="row"></div>
 
             {/* Display available movie details */}
-            {this.state.data.map((movie) => {
+            {this.state.data.forEach((movie) => {
               <div className="col-lg-4">
                 <div className="card mb-5 mb-lg-0">
                   <div className="card-body">
